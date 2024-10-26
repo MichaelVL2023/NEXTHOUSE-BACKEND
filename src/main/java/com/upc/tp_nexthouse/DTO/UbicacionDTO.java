@@ -1,0 +1,18 @@
+package com.upc.tp_nexthouse.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class UbicacionDTO {
+    private Long idUbicacion;
+    private String ciudad;
+    private String direccion;
+}
